@@ -27,7 +27,7 @@ public class TweetsListFragment extends ListFragment {
         super.onCreate(savedInstanceState);
 
         final SearchTimeline searchTimeline = new SearchTimeline.Builder()
-                .query("devfestvienna")
+                .query("wtmvie17")
                 .resultType(SearchTimeline.ResultType.RECENT)
                 .build();
         adapter = new TweetTimelineListAdapter.Builder(getActivity())

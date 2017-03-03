@@ -33,6 +33,7 @@
             android:gravity="start"
             android:text="@string/drawer_header_headline"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@android:color/black"
             android:textSize="17sp"
             android:textStyle="bold"
             tools:ignore="UnusedAttribute" />
@@ -42,6 +43,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif"
             android:text="@string/drawer_header_subheadline"
+            android:textColor="@android:color/black"
             android:textSize="15sp"
             tools:ignore="UnusedAttribute" />
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Core -->
-    <string name="app_name">WTM Vienna 2016</string>
+    <string name="app_name">WTM Vienna 2017</string>
 
     <!-- Connection error -->
     <string name="connection_error">Connection error</string>
@@ -11,7 +11,7 @@
     <string name="drawer_open">Open navigation drawer</string>
     <string name="drawer_close">Close navigation drawer</string>
     <string name="drawer_header_headline">WTM Vienna</string>
-    <string name="drawer_header_subheadline">5-6 November 2016</string>
+    <string name="drawer_header_subheadline">11 March 2017</string>
     <string name="drawer_nav_home">WTM Vienna</string>
     <string name="drawer_nav_agenda">All Sessions</string>
     <string name="drawer_nav_schedule">My Schedule</string>
@@ -84,10 +84,10 @@
     <string name="no_tweets_available">No Tweets</string>
 
     <!-- Home Screen -->
-    <string name="home_conference_before_title">WTM Vienna 2016</string>
-    <string name="home_conference_before">WTM Vienna starts on 5 November at the University for Technology - TU Wien.</string>
-    <string name="home_conference_after_title">WTM Vienna 2016</string>
-    <string name="home_conference_after">WTM Vienna 2016 was from 5 to 6 November at TU Wien and Stockwerk.</string>
+    <string name="home_conference_before_title">WTM Vienna 2017</string>
+    <string name="home_conference_before">WTM Vienna 2017 takes place on 11 March at the University for Technology - TU Wien.</string>
+    <string name="home_conference_after_title">WTM Vienna 2017</string>
+    <string name="home_conference_after">WTM Vienna 2017 was on 11 March at TU Wien and Stockwerk.</string>
     <string name="home_conference_last_day_title">WTM Vienna is over</string>
     <string name="home_conference_last_day">Thanks for coming, see you again next year!</string>
     <string name="home_conference_next_day_title">See you tomorrow</string>

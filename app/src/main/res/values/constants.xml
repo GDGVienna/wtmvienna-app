@@ -7,8 +7,8 @@
     <string name="settings_sources_key" translatable="false">sources_link</string>
     <string name="settings_developer_key" translatable="false">developer_link</string>
     <string name="settings_hacker_key" translatable="false">hacker_link</string>
-    <string name="settings_about_conf_summary" translatable="false">http://www.wtmvienna.at/</string>
-    <string name="settings_about_sources_summary" translatable="false">https://github.com/DevFestVienna/wtmvienna-vienna-app</string>
+    <string name="settings_about_conf_summary" translatable="false">https://www.wtmvienna.at/</string>
+    <string name="settings_about_sources_summary" translatable="false">https://github.com/GDGVienna/wtmvienna-app</string>
     <string name="settings_about_developer_summary" translatable="false">http://www.nilhcem.com/</string>
     <string name="settings_about_hacker_summary" translatable="false">https://github.com/HelmuthB</string>
 </resources>
