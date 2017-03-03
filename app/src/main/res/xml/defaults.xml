@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>show_home_screen</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>show_tweets_screen</key>
+        <value>true</value>
+    </entry>
+</defaultsMap>

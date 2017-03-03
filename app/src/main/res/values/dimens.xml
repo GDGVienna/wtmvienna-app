@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Core -->
+    <dimen name="item_margin">4dp</dimen>
+    <dimen name="activity_margin">16dp</dimen>
+    <dimen name="activity_margin_half">8dp</dimen>
+    <dimen name="activity_margin_fourth">4dp</dimen>
+
+    <!-- Schedule -->
+    <dimen name="schedule_day_entry_card_padding">12dp</dimen>
+    <dimen name="schedule_day_entry_card_title">16sp</dimen>
+
+    <!-- Home -->
+    <dimen name="home_section_title">16sp</dimen>
+    <dimen name="home_section_text">12sp</dimen>
+    <dimen name="home_text_adjustment">4dp</dimen>
+
+    <!-- Speakers -->
+    <dimen name="speakers_entry_width">180dp</dimen>
+    <dimen name="speakers_entry_height">160dp</dimen>
+    <dimen name="speaker_details_image">120dp</dimen>
+
+    <!-- Tweets -->
+    <dimen name="tweets_margin_right">16dp</dimen>
+    <dimen name="tweets_image_size">40dp</dimen>
+    <dimen name="tweets_media_margin">16dp</dimen>
+</resources>

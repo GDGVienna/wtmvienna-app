@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/Session.Feedback"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/session_feedback_title"
+        style="@style/Session.Details.Category"
+        tools:text="Keynote"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/activity_margin"
+            android:layout_marginStart="@dimen/activity_margin"
+            android:orientation="vertical">
+            <TextView
+                style="@style/Session.Feedback.Question"
+                android:text="@string/session_feedback_session_rating"/>
+            <RatingBar
+                android:id="@+id/session_feedback_talk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_margin">
+
+                <TextView
+                    style="@style/Session.Feedback.InstructionLeft"
+                    android:text="@string/session_feedback_mediocre" />
+
+                <TextView
+                    style="@style/Session.Feedback.InstructionRight"
+                    android:text="@string/session_feedback_awesome" />
+
+            </FrameLayout>
+            <TextView
+                style="@style/Session.Feedback.Question"
+                android:text="@string/session_feedback_speaker_quality"/>
+            <RatingBar
+                android:id="@+id/session_feedback_speaker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"/>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_margin">
+
+                <TextView
+                    style="@style/Session.Feedback.InstructionLeft"
+                    android:text="@string/session_feedback_mediocre" />
+
+                <TextView
+                    style="@style/Session.Feedback.InstructionRight"
+                    android:text="@string/session_feedback_awesome" />
+
+            </FrameLayout>
+            <TextView
+                style="@style/Session.Feedback.Question"
+                android:text="@string/session_feedback_complexity"/>
+            <RatingBar
+                android:id="@+id/session_feedback_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_margin">
+
+                <TextView
+                    style="@style/Session.Feedback.InstructionLeft"
+                    android:text="@string/session_feedback_too_basic" />
+
+                <TextView
+                    style="@style/Session.Feedback.InstructionRight"
+                    android:text="@string/session_feedback_too_advanced" />
+
+            </FrameLayout>
+        </LinearLayout>
+</LinearLayout>
+</ScrollView>

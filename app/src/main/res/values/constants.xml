@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Settings -->
+    <string name="settings_notify_key" translatable="false">notify_sessions</string>
+    <string name="settings_version_key" translatable="false">app_version</string>
+    <string name="settings_conf_key" translatable="false">conf_link</string>
+    <string name="settings_sources_key" translatable="false">sources_link</string>
+    <string name="settings_developer_key" translatable="false">developer_link</string>
+    <string name="settings_hacker_key" translatable="false">hacker_link</string>
+    <string name="settings_about_conf_summary" translatable="false">http://www.devfest.at/</string>
+    <string name="settings_about_sources_summary" translatable="false">https://github.com/DevFestVienna/devfest-vienna-app</string>
+    <string name="settings_about_developer_summary" translatable="false">http://www.nilhcem.com/</string>
+    <string name="settings_about_hacker_summary" translatable="false">https://github.com/HelmuthB</string>
+</resources>

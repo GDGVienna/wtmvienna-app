@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <ScrollView
+        android:id="@+id/home_content"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:visibility="visible"
+        tools:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="0dp"
+            android:divider="@drawable/horizontal_divider"
+            android:dividerPadding="0dp"
+            android:showDividers="middle"
+            >
+            <!-- announcements -->
+            <LinearLayout
+                android:id="@+id/home_news_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/home_text_adjustment"
+                android:layout_marginRight="@dimen/home_text_adjustment"
+                android:orientation="vertical"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:padding="@dimen/activity_margin">
+
+                <TextView
+                    android:id="@+id/home_news_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/accent"
+                    android:textSize="@dimen/schedule_day_entry_card_title"
+                    android:textStyle="italic"
+                    tools:text="Latest Update!" />
+
+                <TextView
+                    android:id="@+id/home_news_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:paddingBottom="4dp"
+                    android:paddingTop="4dp"
+                    android:textColor="@color/primary_text"
+                    android:textSize="13sp"
+                    tools:text="All sessions are currently delayed for 10 minutes. The next session will start at 14:15." />
+            </LinearLayout>
+
+            <!-- coming next / currently running -->
+            <LinearLayout
+                android:id="@+id/home_current_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/home_text_adjustment"
+                android:layout_marginRight="@dimen/home_text_adjustment"
+                android:orientation="vertical"
+                android:padding="0dp">
+
+                <TextView
+                    android:id="@+id/home_current_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/primary"
+                    android:textSize="@dimen/home_section_title"
+                    android:textStyle="italic"
+                    android:paddingTop="@dimen/schedule_day_entry_card_padding"
+                    android:paddingLeft="@dimen/schedule_day_entry_card_padding"
+                    android:paddingRight="@dimen/schedule_day_entry_card_padding"
+                    tools:text="Coming Next" />
+                <TextView
+                    android:id="@+id/home_current_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/primary_text"
+                    android:textSize="@dimen/home_section_text"
+                    android:paddingTop="@dimen/activity_margin_fourth"
+                    android:paddingBottom="@dimen/schedule_day_entry_card_padding"
+                    android:paddingLeft="@dimen/schedule_day_entry_card_padding"
+                    android:paddingRight="@dimen/schedule_day_entry_card_padding"
+                    tools:visibility="gone"
+                    tools:text="See you again next year!" />
+
+                <LinearLayout
+                    android:id="@+id/home_buttons"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/activity_margin_fourth"
+                    android:paddingBottom="@dimen/schedule_day_entry_card_padding"
+                    android:paddingLeft="@dimen/schedule_day_entry_card_padding"
+                    android:paddingRight="@dimen/schedule_day_entry_card_padding"
+                    tools:visibility="visible"
+                    >
+                    <Button
+                        android:id="@+id/home_button_agenda_full"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/primary_text"
+                        android:text="@string/drawer_nav_agenda"
+                        tools:ignore="ButtonStyle" />
+                    <Button
+                        android:id="@+id/home_button_agenda_mine"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/primary_text"
+                        android:text="@string/drawer_nav_schedule"
+                        tools:ignore="ButtonStyle" />
+                </LinearLayout>
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/home_current_recyclerview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clipToPadding="false"
+                    android:paddingBottom="@dimen/schedule_day_entry_card_padding"
+                    android:paddingTop="@dimen/schedule_day_entry_card_padding"
+                    android:paddingLeft="@dimen/schedule_day_entry_card_padding"
+                    android:paddingRight="@dimen/schedule_day_entry_card_padding"
+                    android:focusable="false"
+                    tools:visibility="visible"
+                    tools:listitem="@layout/current_list_entry"/>
+            </LinearLayout>
+
+            <!-- Sponsors: gold -->
+            <LinearLayout
+                android:id="@+id/home_gold_sponsors"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="@dimen/home_text_adjustment"
+                android:layout_marginRight="@dimen/home_text_adjustment"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/schedule_day_entry_card_padding">
+
+                <TextView
+                    android:id="@+id/home_gold_sponsors_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/primary"
+                    android:textSize="@dimen/schedule_day_entry_card_title"
+                    android:textStyle="italic"
+                    android:text="@string/home_text_gold_sponsors" />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/home_sponsor_willhaben"
+                        app:srcCompat="@drawable/sponsor_willhaben"
+                        android:tag="http://jobsbei.willhaben.at/"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitXY"
+                        android:padding="12dp"
+                        android:adjustViewBounds="true"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="@string/home_sponsor_willhaben"/>
+
+                    <ImageView
+                        android:id="@+id/home_sponsor_erste"
+                        app:srcCompat="@drawable/sponsor_erste"
+                        android:tag="https://www.erstegroup.com/"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:padding="12dp"
+                        android:scaleType="fitXY"
+                        android:adjustViewBounds="true"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="@string/home_sponsor_erste"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:layout_weight="1"
+                        />
+                <ImageView
+                    android:id="@+id/home_sponsor_pavelka"
+                    app:srcCompat="@drawable/sponsor_pavelka"
+                    android:tag="http://www.pavelka-denk.at/"
+                    android:layout_width="0dp"
+                    android:layout_weight="4"
+                    android:padding="12dp"
+                    android:scaleType="fitXY"
+                    android:adjustViewBounds="true"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/home_sponsor_pavelka"/>
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:layout_weight="1"
+                        />
+                    </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <!-- Sponsors: silver -->
+            <LinearLayout
+                android:id="@+id/home_silver_sponsors"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="@dimen/home_text_adjustment"
+                android:layout_marginRight="@dimen/home_text_adjustment"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/schedule_day_entry_card_padding">
+
+                <TextView
+                    android:id="@+id/home_silver_sponsors_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/primary"
+                    android:textSize="@dimen/schedule_day_entry_card_title"
+                    android:textStyle="italic"
+                    android:text="@string/home_text_silver_sponsors" />
+
+                    <ImageView
+                        android:id="@+id/home_sponsor_openforce"
+                        app:srcCompat="@drawable/sponsor_openforce"
+                        android:tag="http://www.openforce.com/"
+                        android:layout_width="match_parent"
+                        android:scaleType="fitXY"
+                        android:padding="12dp"
+                        android:adjustViewBounds="true"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="@string/home_sponsor_openforce"/>
+            </LinearLayout>
+
+            <!-- Sponsors: bronze -->
+            <LinearLayout
+                android:id="@+id/home_bronze_sponsors"
+                android:layout_marginLeft="@dimen/home_text_adjustment"
+                android:layout_marginRight="@dimen/home_text_adjustment"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/schedule_day_entry_card_padding">
+
+                <TextView
+                    android:id="@+id/home_bronze_sponsors_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/primary"
+                    android:textSize="@dimen/schedule_day_entry_card_title"
+                    android:textStyle="italic"
+                    android:text="@string/home_text_bronze_sponsors" />
+
+                    <ImageView
+                        android:id="@+id/home_sponsor_easyname"
+                        app:srcCompat="@drawable/sponsor_easyname"
+                        android:tag="https://www.easyname.at/de/domain/registrieren"
+                        android:scaleType="fitXY"
+                        android:padding="12dp"
+                        android:adjustViewBounds="true"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="@string/home_sponsor_easyname"
+                        android:layout_width="wrap_content" />
+
+            </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <ProgressBar
+        android:id="@+id/home_loading"
+        style="@style/Loading"
+        android:visibility="gone"/>
+</FrameLayout>

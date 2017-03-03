@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Core -->
+    <string name="app_name">DevFest Vienna 2016</string>
+
+    <!-- Connection error -->
+    <string name="connection_error">Connection error</string>
+    <string name="connection_error_retry">Retry</string>
+
+    <!-- Drawer Activity -->
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="drawer_header_headline">DevFest Vienna</string>
+    <string name="drawer_header_subheadline">5-6 November 2016</string>
+    <string name="drawer_nav_home">DevFest Vienna</string>
+    <string name="drawer_nav_agenda">All Sessions</string>
+    <string name="drawer_nav_schedule">My Schedule</string>
+    <string name="drawer_nav_speakers">Speakers</string>
+    <string name="drawer_nav_tweets">Tweets</string>
+    <string name="drawer_nav_venue">Venue</string>
+    <string name="drawer_nav_settings">Settings</string>
+
+    <!-- Schedule -->
+    <string name="schedule_browse_sessions">Browse sessions</string>
+    <string name="schedule_browse_sessions_title_pattern">%1$s, %2$s</string>
+    <string name="schedule_pager_day_pattern">EEEE dd</string>
+    <string name="schedule_day_entry_session_time_format">%1$s - %2$s</string>
+
+    <!-- Session details -->
+    <string name="session_details_talk_info">%1$s, %2$s - %3$s\n%4$s</string>
+    <string name="session_details_talk_info_date_pattern">MMM dd YYYY</string>
+    <string name="session_details_description">Description</string>
+    <string name="session_details_added">Added to schedule</string>
+    <string name="session_details_removed">Removed from schedule</string>
+    <plurals name="session_details_speakers">
+        <item quantity="one">Speaker</item>
+        <item quantity="other">Speakers</item>
+    </plurals>
+    <string name="session_details_feedback">Session Feedback</string>
+
+    <!-- Speaker details -->
+    <string name="speaker_details_hide">Hide</string>
+
+    <!-- Session feedback -->
+    <string name="session_feedback_cancel">Cancel</string>
+    <string name="session_feedback_submit">Submit</string>
+    <string name="session_feedback_complexity">Based on the description and my expectations, it was:</string>
+    <string name="session_feedback_session_rating">Session Rating</string>
+    <string name="session_feedback_speaker_quality">Speaker Quality</string>
+    <string name="session_feedback_awesome">awesome</string>
+    <string name="session_feedback_mediocre">mediocre</string>
+    <string name="session_feedback_too_advanced">too advanced</string>
+    <string name="session_feedback_too_basic">too basic</string>
+
+    <!-- Venue -->
+    <string name="venue_see_location">Locate on map</string>
+    <string name="venue_see_location_error">Error opening map.\nDo you have Google Maps installed?</string>
+    <string name="venue_conference_title">Technische Universität Wien\nInstitut für Elektrotechnik</string>
+    <string name="venue_conference_address">Gußhausstraße 27-29, 1040 Vienna</string>
+    <string name="venue_conference_info">\nThe University for Technology has been founded in 1815 and is one of the most renowned universities in Austria.</string>
+    <string name="venue_afterparty_title">Nelson\'s</string>
+    <string name="venue_afterparty_address">Paniglgasse 14, 1040 Vienna</string>
+    <string name="venue_afterparty_info">\nLocated within the building complex of the TU Wien, Nelson\'s will offer you free beer &amp; wine and will be the place of relaxing and networking after a compressed day of conference.\nIt is located in walking distance from the conference venue.\nDo not forget to bring your badge for enjoying the free beverages!</string>
+    <string name="venue_hackathon_title">Stockwerk Coworking Space</string>
+    <string name="venue_hackathon_address">Pater-Schwartz-Gasse 11A, 1150 Vienna</string>
+    <string name="venue_hackathon_info">Located in close proximity to Westbahnhof and U6 Gumpendorferstraße, Stockwerk is one of Vienna\'s finest Coworking spaces.</string>
+    <string name="venue_conference_tab">Conference</string>
+    <string name="venue_afterparty_tab">Afterparty</string>
+    <string name="venue_hackathon_tab">Hackathon</string>
+
+    <!-- Settings -->
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_notify_about_my_sessions">Notify me about selected sessions</string>
+    <string name="settings_notify_about_my_sessions_description">Display a notification when selected sessions are about to begin</string>
+    <string name="settings_about">About</string>
+    <string name="settings_about_version">Version</string>
+    <string name="settings_about_conf_title">DevFest Vienna</string>
+    <string name="settings_about_sources_title">Source code</string>
+    <string name="settings_about_developer_title">Good parts by</string>
+    <string name="settings_about_hacker_title">Bugs made by</string>
+
+    <!-- Sessions reminder -->
+    <string name="reminder_about_to_start">Session %1$s is about to start!</string>
+    <string name="no_tweets_available">No Tweets</string>
+
+    <!-- Home Screen -->
+    <string name="home_conference_before_title">DevFest Vienna 2016</string>
+    <string name="home_conference_before">DevFest Vienna starts on 5 November at the University for Technology - TU Wien.</string>
+    <string name="home_conference_after_title">DevFest Vienna 2016</string>
+    <string name="home_conference_after">DevFest Vienna 2016 was from 5 to 6 November at TU Wien and Stockwerk.</string>
+    <string name="home_conference_last_day_title">DevFest Vienna is over</string>
+    <string name="home_conference_last_day">Thanks for coming, see you again next year!</string>
+    <string name="home_conference_next_day_title">See you tomorrow</string>
+    <string name="home_conference_next_day">This was the program for today. We will continue with an awesome hackathon tomorrow morning!</string>
+    <string name="home_session_current_title">Running now</string>
+    <string name="home_session_next_title">Coming next</string>
+    <string name="home_text_gold_sponsors">Gold Sponsors</string>
+    <string name="home_text_silver_sponsors">Silver Sponsor</string>
+    <string name="home_text_bronze_sponsors">Bronze Sponsor</string>
+    <string name="home_sponsor_willhaben">willhaben</string>
+    <string name="home_sponsor_erste">Erste Group</string>
+    <string name="home_sponsor_pavelka">Pavelka-Denk Personalberatung</string>
+    <string name="home_sponsor_openforce">openforce</string>
+    <string name="home_sponsor_easyname">easyname</string>
+    <string name="home_sponsor_c4c_engineering">c4c engineering</string>
+    <string name="home_sponsor_creative_workline">creative workline</string>
+    <string name="home_sponsor_runtastic">runtastic</string>
+    <string name="home_sponsor_shpock">shpock</string>
+</resources>
