@@ -37,15 +37,15 @@ android {
 
     defaultConfig {
         applicationId 'at.wtmvienna.app'
-        versionCode 29
-        versionName '1.0.1'
+        versionCode 1
+        versionName '0.9.0'
 
         minSdkVersion 15
         targetSdkVersion 25
         resConfigs 'en'
 
         buildConfigField 'String', 'GIT_SHA', "\"${gitSha}\""
-        buildConfigField 'String', 'API_ENDPOINT', "\"http://www.wtmvienna.at/api/v1/\""
+        buildConfigField 'String', 'API_ENDPOINT', "\"https://www.wtmvienna.at/api/v1/\""
         vectorDrawables.useSupportLibrary = true
     }
 
@@ -96,13 +96,13 @@ android {
     }
 }
 
-ext.butterknifeVersion = '8.4.0'
-ext.daggerVersion = '2.7'
+ext.butterknifeVersion = '8.5.1'
+ext.daggerVersion = '2.9'
 ext.fragmentargsVersion = '3.0.2'
 ext.icepickVersion = '3.2.0'
 ext.intentbuilderVersion = '0.14.0'
-ext.okhttpVersion = '3.4.1'
-ext.retrofitVersion = '2.1.0'
+ext.okhttpVersion = '3.6.0'
+ext.retrofitVersion = '2.2.0'
 ext.supportVersion = '25.2.0'
 ext.playVersion = '10.2.0'
 
