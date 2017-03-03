@@ -1,7 +1,7 @@
 package at.wtmvienna.app.core.dagger.module;
 
 import at.wtmvienna.app.BuildConfig;
-import at.wtmvienna.app.data.network.DroidconService;
+import at.wtmvienna.app.data.network.ConferenceService;
 import com.squareup.moshi.Moshi;
 
 import javax.inject.Singleton;
@@ -26,7 +26,7 @@ public final class ApiModule {
     }
 
     @Provides @Singleton
-    DroidconService provideDroidconService(Retrofit retrofit) {
-        return retrofit.create(DroidconService.class);
+    ConferenceService provideConferenceService(Retrofit retrofit) {
+        return retrofit.create(ConferenceService.class);
     }
 }

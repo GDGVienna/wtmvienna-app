@@ -46,11 +46,11 @@ public class HomeFragment extends BaseFragment<HomePresenter> implements HomeMvp
     @BindView(R.id.home_current_recyclerview) RecyclerView currentRecyclerView;
     @BindView(R.id.home_content) View content;
     @BindView(R.id.home_loading) View loading;
-    @BindView(R.id.home_sponsor_willhaben) View willhaben;
-    @BindView(R.id.home_sponsor_erste) View erste;
-    @BindView(R.id.home_sponsor_pavelka) View pavelka;
-    @BindView(R.id.home_sponsor_openforce) View openforce;
-    @BindView(R.id.home_sponsor_easyname) View easyname;
+    @BindView(R.id.home_sponsor_1) View sponsor1;
+    @BindView(R.id.home_sponsor_2) View sponsor2;
+    @BindView(R.id.home_sponsor_3) View sponsor3;
+    @BindView(R.id.home_sponsor_4) View sponsor4;
+    @BindView(R.id.home_sponsor_5) View sponsor5;
     @BindView(R.id.home_buttons) View agenda_buttons;
     @BindView(R.id.home_button_agenda_mine) View agenda_mine;
     @BindView(R.id.home_button_agenda_full) View agenda_full;
@@ -136,11 +136,11 @@ public class HomeFragment extends BaseFragment<HomePresenter> implements HomeMvp
     public void onStart() {
         super.onStart();
         View.OnClickListener linkOpener = v -> openLink(v.getTag() != null ? v.getTag().toString() : null) ;
-        willhaben.setOnClickListener(linkOpener);
-        erste.setOnClickListener(linkOpener);
-        pavelka.setOnClickListener(linkOpener);
-        openforce.setOnClickListener(linkOpener);
-        easyname.setOnClickListener(linkOpener);
+        sponsor1.setOnClickListener(linkOpener);
+        sponsor2.setOnClickListener(linkOpener);
+        sponsor3.setOnClickListener(linkOpener);
+        sponsor4.setOnClickListener(linkOpener);
+        sponsor5.setOnClickListener(linkOpener);
         agenda_full.setOnClickListener(v -> openDrawerItem(R.id.drawer_nav_agenda));
         agenda_mine.setOnClickListener(v -> openDrawerItem(R.id.drawer_nav_schedule));
     }

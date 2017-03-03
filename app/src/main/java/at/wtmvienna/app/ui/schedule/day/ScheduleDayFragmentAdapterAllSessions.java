@@ -54,7 +54,9 @@ public class ScheduleDayFragmentAdapterAllSessions extends RecyclerView.Adapter<
     }
 
     private List<Pair<Session, ScheduleSlot>> toSessionsSlotsPair(List<ScheduleSlot> slots) {
-        return stream(slots).flatMap(scheduleSlot -> stream(scheduleSlot.getSessions())
+        return stream(slots)
+                .flatMap(scheduleSlot -> stream(scheduleSlot.getSessions())
+                .filter(session -> session.getTitle() != null)
                 .map(session -> new Pair<>(session, scheduleSlot))
         ).collect(Collectors.toList());
     }

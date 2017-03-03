@@ -88,16 +88,9 @@
     <string name="home_conference_last_day">Thanks for coming, see you again next year!</string>
     <string name="home_session_current_title">Running now</string>
     <string name="home_session_next_title">Coming next</string>
-    <string name="home_text_gold_sponsors">Gold Sponsors</string>
-    <string name="home_text_silver_sponsors">Silver Sponsor</string>
-    <string name="home_text_bronze_sponsors">Bronze Sponsor</string>
-    <string name="home_sponsor_willhaben">willhaben</string>
-    <string name="home_sponsor_erste">Erste Group</string>
-    <string name="home_sponsor_pavelka">Pavelka-Denk Personalberatung</string>
-    <string name="home_sponsor_openforce">openforce</string>
-    <string name="home_sponsor_easyname">easyname</string>
-    <string name="home_sponsor_c4c_engineering">c4c engineering</string>
-    <string name="home_sponsor_creative_workline">creative workline</string>
-    <string name="home_sponsor_runtastic">runtastic</string>
-    <string name="home_sponsor_shpock">shpock</string>
+    <string name="home_sponsors_level1_text">General Sponsors</string>
+    <string name="home_sponsors_level2_text">Platinum Sponsor</string>
+    <string name="home_sponsors_level3_text">Gold Sponsor</string>
+    <string name="home_sponsors_level4_text">Silver Sponsor</string>
+    <string name="home_sponsors_level5_text">With Support Of</string>
 </resources>

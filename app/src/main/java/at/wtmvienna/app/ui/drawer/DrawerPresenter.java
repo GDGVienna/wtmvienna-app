@@ -42,7 +42,7 @@ public class DrawerPresenter extends BaseActivityPresenter<DrawerMvp.View> imple
     private void checkHiddenEntries() {
         config.refresh();
         view.showDrawerMenuItem(R.id.drawer_nav_home, config.getBoolean("show_home_screen"));
-        view.showDrawerMenuItem(R.id.drawer_nav_tweets, config.getBoolean("show_tweets_screen"));
+        // view.showDrawerMenuItem(R.id.drawer_nav_tweets, config.getBoolean("show_tweets_screen"));
     }
 
     @Override
@@ -92,11 +92,13 @@ public class DrawerPresenter extends BaseActivityPresenter<DrawerMvp.View> imple
                     analytics.logViewScreen("speakers");
                     toolbarTitle = R.string.drawer_nav_speakers;
                     break;
+/*
                 case R.id.drawer_nav_tweets:
                     view.showFragment(new TweetsListFragment());
                     analytics.logViewScreen("tweets");
                     toolbarTitle = R.string.drawer_nav_tweets;
                     break;
+*/
                 case R.id.drawer_nav_venue:
                     view.showFragment(new VenuePagerFragment());
                     analytics.logViewScreen("venue");

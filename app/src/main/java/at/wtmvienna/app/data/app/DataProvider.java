@@ -5,7 +5,7 @@ import at.wtmvienna.app.data.app.model.Session;
 import at.wtmvienna.app.data.app.model.Speaker;
 import at.wtmvienna.app.data.database.dao.SessionsDao;
 import at.wtmvienna.app.data.database.dao.SpeakersDao;
-import at.wtmvienna.app.data.network.DroidconService;
+import at.wtmvienna.app.data.network.ConferenceService;
 import at.wtmvienna.app.data.network.NetworkMapper;
 
 import java.util.List;
@@ -22,13 +22,13 @@ public class DataProvider {
 
     private final AppMapper appMapper;
     private final NetworkMapper networkMapper;
-    private final DroidconService service;
+    private final ConferenceService service;
     private final SpeakersDao speakersDao;
     private final SessionsDao sessionsDao;
     private final DataProviderCache cache;
 
     @Inject
-    public DataProvider(AppMapper appMapper, NetworkMapper networkMapper, DroidconService service, SpeakersDao speakersDao, SessionsDao sessionsDao) {
+    public DataProvider(AppMapper appMapper, NetworkMapper networkMapper, ConferenceService service, SpeakersDao speakersDao, SessionsDao sessionsDao) {
         this.appMapper = appMapper;
         this.networkMapper = networkMapper;
         this.service = service;

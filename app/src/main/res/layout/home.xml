@@ -129,9 +129,9 @@
                     tools:listitem="@layout/current_list_entry"/>
             </LinearLayout>
 
-            <!-- Sponsors: gold -->
+            <!-- Sponsors: Level 1 (General) -->
             <LinearLayout
-                android:id="@+id/home_gold_sponsors"
+                android:id="@+id/home_sponsors_level1"
                 android:layout_width="match_parent"
                 android:layout_marginLeft="@dimen/home_text_adjustment"
                 android:layout_marginRight="@dimen/home_text_adjustment"
@@ -140,140 +140,156 @@
                 android:padding="@dimen/schedule_day_entry_card_padding">
 
                 <TextView
-                    android:id="@+id/home_gold_sponsors_title"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="@color/primary"
                     android:textSize="@dimen/schedule_day_entry_card_title"
                     android:textStyle="italic"
-                    android:text="@string/home_text_gold_sponsors" />
-                <LinearLayout
-                    android:orientation="horizontal"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <ImageView
-                        android:id="@+id/home_sponsor_willhaben"
-                        app:srcCompat="@drawable/sponsor_willhaben"
-                        android:tag="http://jobsbei.willhaben.at/"
-                        android:layout_width="0dp"
-                        android:layout_weight="1"
-                        android:scaleType="fitXY"
-                        android:padding="12dp"
-                        android:adjustViewBounds="true"
-                        android:layout_height="wrap_content"
-                        android:contentDescription="@string/home_sponsor_willhaben"/>
-
-                    <ImageView
-                        android:id="@+id/home_sponsor_erste"
-                        app:srcCompat="@drawable/sponsor_erste"
-                        android:tag="https://www.erstegroup.com/"
-                        android:layout_width="0dp"
-                        android:layout_weight="1"
-                        android:padding="12dp"
-                        android:scaleType="fitXY"
-                        android:adjustViewBounds="true"
-                        android:layout_height="wrap_content"
-                        android:contentDescription="@string/home_sponsor_erste"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:orientation="horizontal"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-                    <View
-                        android:layout_width="0dp"
-                        android:layout_height="1dp"
-                        android:layout_weight="1"
-                        />
+                    android:text="@string/home_sponsors_level1_text" />
                 <ImageView
-                    android:id="@+id/home_sponsor_pavelka"
-                    app:srcCompat="@drawable/sponsor_pavelka"
-                    android:tag="http://www.pavelka-denk.at/"
-                    android:layout_width="0dp"
-                    android:layout_weight="4"
-                    android:padding="12dp"
+                    android:id="@+id/home_sponsor_1"
+                    app:srcCompat="@drawable/sponsor_google_dev"
+                    android:tag="http://developers.google.com/"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="64dp"
+                    android:layout_marginEnd="64dp"
                     android:scaleType="fitXY"
+                    android:padding="12dp"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="Google Developers"/>
+
+            </LinearLayout>
+
+            <!-- Sponsors: Level 2 (Platinum) -->
+            <LinearLayout
+                android:id="@+id/home_sponsors_level2"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="@dimen/home_text_adjustment"
+                android:layout_marginRight="@dimen/home_text_adjustment"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/schedule_day_entry_card_padding">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/primary"
+                    android:textSize="@dimen/schedule_day_entry_card_title"
+                    android:textStyle="italic"
+                    android:text="@string/home_sponsors_level2_text" />
+
+                <ImageView
+                    android:id="@+id/home_sponsor_2"
+                    app:srcCompat="@drawable/sponsor_bosch"
+                    android:tag="http://www.bosch-career.at/"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:layout_marginStart="64dp"
+                    android:layout_marginEnd="64dp"
+                    android:padding="12dp"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="BOSCH - Technik fürs Leben"/>
+            </LinearLayout>
+
+            <!-- Sponsors: Level 3 (Gold) -->
+            <LinearLayout
+                android:id="@+id/home_sponsors_level3"
+                android:layout_marginLeft="@dimen/home_text_adjustment"
+                android:layout_marginRight="@dimen/home_text_adjustment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/schedule_day_entry_card_padding">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/primary"
+                    android:textSize="@dimen/schedule_day_entry_card_title"
+                    android:textStyle="italic"
+                    android:text="@string/home_sponsors_level3_text" />
+
+                <ImageView
+                    android:id="@+id/home_sponsor_3"
+                    app:srcCompat="@drawable/sponsor_pwc"
+                    android:tag="https://www.pwc.at/"
+                    android:scaleType="fitXY"
+                    android:padding="12dp"
+                    android:layout_marginStart="96dp"
+                    android:layout_marginEnd="96dp"
                     android:adjustViewBounds="true"
                     android:layout_height="wrap_content"
-                    android:contentDescription="@string/home_sponsor_pavelka"/>
-                    <View
-                        android:layout_width="0dp"
-                        android:layout_height="1dp"
-                        android:layout_weight="1"
-                        />
-                    </LinearLayout>
+                    android:contentDescription="PwC"
+                    android:layout_width="match_parent" />
 
             </LinearLayout>
 
+            <!-- Sponsors: Level 4 (Silver) -->
             <LinearLayout
+                android:id="@+id/home_sponsors_level4"
+                android:layout_marginLeft="@dimen/home_text_adjustment"
+                android:layout_marginRight="@dimen/home_text_adjustment"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-            <!-- Sponsors: silver -->
-            <LinearLayout
-                android:id="@+id/home_silver_sponsors"
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_marginLeft="@dimen/home_text_adjustment"
-                android:layout_marginRight="@dimen/home_text_adjustment"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:padding="@dimen/schedule_day_entry_card_padding">
 
                 <TextView
-                    android:id="@+id/home_silver_sponsors_title"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="@color/primary"
                     android:textSize="@dimen/schedule_day_entry_card_title"
                     android:textStyle="italic"
-                    android:text="@string/home_text_silver_sponsors" />
+                    android:text="@string/home_sponsors_level4_text" />
 
-                    <ImageView
-                        android:id="@+id/home_sponsor_openforce"
-                        app:srcCompat="@drawable/sponsor_openforce"
-                        android:tag="http://www.openforce.com/"
-                        android:layout_width="match_parent"
-                        android:scaleType="fitXY"
-                        android:padding="12dp"
-                        android:adjustViewBounds="true"
-                        android:layout_height="wrap_content"
-                        android:contentDescription="@string/home_sponsor_openforce"/>
+                <ImageView
+                    app:srcCompat="@drawable/sponsor_github"
+                    android:id="@+id/home_sponsor_4"
+                    android:tag="https://github.com/"
+                    android:scaleType="fitXY"
+                    android:padding="12dp"
+                    android:layout_marginStart="64dp"
+                    android:layout_marginEnd="64dp"
+                    android:adjustViewBounds="true"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="GitHub"
+                    android:layout_width="match_parent" />
+
             </LinearLayout>
 
-            <!-- Sponsors: bronze -->
+            <!-- Sponsors: Level 5 (Supporter) -->
             <LinearLayout
-                android:id="@+id/home_bronze_sponsors"
+                android:id="@+id/home_sponsors_level5"
                 android:layout_marginLeft="@dimen/home_text_adjustment"
                 android:layout_marginRight="@dimen/home_text_adjustment"
-                android:layout_width="0dp"
-                android:layout_weight="1"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:padding="@dimen/schedule_day_entry_card_padding">
 
                 <TextView
-                    android:id="@+id/home_bronze_sponsors_title"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="@color/primary"
                     android:textSize="@dimen/schedule_day_entry_card_title"
                     android:textStyle="italic"
-                    android:text="@string/home_text_bronze_sponsors" />
+                    android:text="@string/home_sponsors_level5_text" />
 
-                    <ImageView
-                        android:id="@+id/home_sponsor_easyname"
-                        app:srcCompat="@drawable/sponsor_easyname"
-                        android:tag="https://www.easyname.at/de/domain/registrieren"
-                        android:scaleType="fitXY"
-                        android:padding="12dp"
-                        android:adjustViewBounds="true"
-                        android:layout_height="wrap_content"
-                        android:contentDescription="@string/home_sponsor_easyname"
-                        android:layout_width="wrap_content" />
+                <ImageView
+                    android:id="@+id/home_sponsor_5"
+                    app:srcCompat="@drawable/sponsor_microsoft"
+                    android:tag="http://www.microsoft.at/"
+                    android:scaleType="fitXY"
+                    android:padding="12dp"
+                    android:layout_marginStart="64dp"
+                    android:layout_marginEnd="64dp"
+                    android:adjustViewBounds="true"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="Microsoft"
+                    android:layout_width="match_parent" />
 
-            </LinearLayout>
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
