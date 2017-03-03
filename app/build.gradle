@@ -45,7 +45,7 @@ android {
         resConfigs 'en'
 
         buildConfigField 'String', 'GIT_SHA', "\"${gitSha}\""
-        buildConfigField 'String', 'API_ENDPOINT', "\"https://www.wtmvienna.at/api/v1/\""
+        buildConfigField 'String', 'API_ENDPOINT', "\"https://www.womentechmakers.at/api/v1/\""
         vectorDrawables.useSupportLibrary = true
     }
 
