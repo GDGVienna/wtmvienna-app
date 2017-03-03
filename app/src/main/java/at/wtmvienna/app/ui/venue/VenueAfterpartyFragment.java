@@ -23,7 +23,7 @@ public class VenueAfterpartyFragment extends BaseFragment {
     @BindView(R.id.venue_afterparty_image) ImageView photo;
 
     private static final float PHOTO_RATIO = 0.406f;
-    private static final String COORDINATES_URI = "geo:48.1983133,16.3675271?q=" + Uri.encode("Nelson's");
+    private static final String COORDINATES_URI = "geo:48.1976751,16.367746?q=" + Uri.encode("Lanea");
 
     @Override
     protected BaseFragmentPresenter newPresenter() {

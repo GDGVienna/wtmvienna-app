@@ -167,15 +167,8 @@ public class HomePresenter extends BaseFragmentPresenter<HomeMvp.View> implement
                 currentSlot = slot;
             }
             if (nextSlot == null) {
-                // at or after the last slot
-                if (isLastDay) {
-                    // last day, nothing coming
-                    view.setComingNext(R.string.home_conference_last_day_title, R.string.home_conference_last_day);
-                }
-                else {
-                    // tomorrow is another session
-                    view.setComingNext(R.string.home_conference_next_day_title, R.string.home_conference_next_day);
-                }
+                // last day, nothing coming
+                view.setComingNext(R.string.home_conference_last_day_title, R.string.home_conference_last_day);
             }
             else if (currentSlot == null) {
                 // no currentSlot: conf day did not start yet

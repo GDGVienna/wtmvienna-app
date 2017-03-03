@@ -22,8 +22,6 @@ public class VenuePagerAdapter extends FragmentPagerAdapter {
                 return ctx.getString(R.string.venue_conference_tab);
             case 1:
                 return ctx.getString(R.string.venue_afterparty_tab);
-            case 2:
-                return ctx.getString(R.string.venue_hackathon_tab);
             default:
                 return super.getPageTitle(position);
         }
@@ -41,8 +39,6 @@ public class VenuePagerAdapter extends FragmentPagerAdapter {
                 return new VenueConferenceFragment();
             case 1:
                 return new VenueAfterpartyFragment();
-            case 2:
-                return new VenueHackathonFragment();
             default:
                 return null;
         }
@@ -50,6 +46,6 @@ public class VenuePagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        return 3;
+        return 2;
     }
 }

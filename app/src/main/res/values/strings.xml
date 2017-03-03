@@ -58,15 +58,11 @@
     <string name="venue_conference_title">Technische Universität Wien\nInstitut für Elektrotechnik</string>
     <string name="venue_conference_address">Gußhausstraße 27-29, 1040 Vienna</string>
     <string name="venue_conference_info">\nThe University for Technology has been founded in 1815 and is one of the most renowned universities in Austria.</string>
-    <string name="venue_afterparty_title">Nelson\'s</string>
-    <string name="venue_afterparty_address">Paniglgasse 14, 1040 Vienna</string>
-    <string name="venue_afterparty_info">\nLocated within the building complex of the TU Wien, Nelson\'s will offer you free beer &amp; wine and will be the place of relaxing and networking after a compressed day of conference.\nIt is located in walking distance from the conference venue.\nDo not forget to bring your badge for enjoying the free beverages!</string>
-    <string name="venue_hackathon_title">Stockwerk Coworking Space</string>
-    <string name="venue_hackathon_address">Pater-Schwartz-Gasse 11A, 1150 Vienna</string>
-    <string name="venue_hackathon_info">Located in close proximity to Westbahnhof and U6 Gumpendorferstraße, Stockwerk is one of Vienna\'s finest Coworking spaces.</string>
+    <string name="venue_afterparty_title">Lanea</string>
+    <string name="venue_afterparty_address">Rilkeplatz 3, 1040 Vienna</string>
+    <string name="venue_afterparty_info">\nLocated in walking distance from the conference venue, Lanea will offer you free soft drinks, beer &amp; wine and will be the place of relaxing and networking after a compressed day of conference.\nDo not forget to bring your badge for enjoying the free beverages!</string>
     <string name="venue_conference_tab">Conference</string>
     <string name="venue_afterparty_tab">Afterparty</string>
-    <string name="venue_hackathon_tab">Hackathon</string>
 
     <!-- Settings -->
     <string name="settings_notifications">Notifications</string>
@@ -90,8 +86,6 @@
     <string name="home_conference_after">WTM Vienna 2017 was on 11 March at TU Wien and Stockwerk.</string>
     <string name="home_conference_last_day_title">WTM Vienna is over</string>
     <string name="home_conference_last_day">Thanks for coming, see you again next year!</string>
-    <string name="home_conference_next_day_title">See you tomorrow</string>
-    <string name="home_conference_next_day">This was the program for today. We will continue with an awesome hackathon tomorrow morning!</string>
     <string name="home_session_current_title">Running now</string>
     <string name="home_session_next_title">Coming next</string>
     <string name="home_text_gold_sponsors">Gold Sponsors</string>
