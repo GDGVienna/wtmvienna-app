@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Core -->
-    <string name="app_name">DevFest Vienna 2016</string>
+    <string name="app_name">WTM Vienna 2016</string>
 
     <!-- Connection error -->
     <string name="connection_error">Connection error</string>
@@ -10,9 +10,9 @@
     <!-- Drawer Activity -->
     <string name="drawer_open">Open navigation drawer</string>
     <string name="drawer_close">Close navigation drawer</string>
-    <string name="drawer_header_headline">DevFest Vienna</string>
+    <string name="drawer_header_headline">WTM Vienna</string>
     <string name="drawer_header_subheadline">5-6 November 2016</string>
-    <string name="drawer_nav_home">DevFest Vienna</string>
+    <string name="drawer_nav_home">WTM Vienna</string>
     <string name="drawer_nav_agenda">All Sessions</string>
     <string name="drawer_nav_schedule">My Schedule</string>
     <string name="drawer_nav_speakers">Speakers</string>
@@ -74,7 +74,7 @@
     <string name="settings_notify_about_my_sessions_description">Display a notification when selected sessions are about to begin</string>
     <string name="settings_about">About</string>
     <string name="settings_about_version">Version</string>
-    <string name="settings_about_conf_title">DevFest Vienna</string>
+    <string name="settings_about_conf_title">WTM Vienna</string>
     <string name="settings_about_sources_title">Source code</string>
     <string name="settings_about_developer_title">Good parts by</string>
     <string name="settings_about_hacker_title">Bugs made by</string>
@@ -84,11 +84,11 @@
     <string name="no_tweets_available">No Tweets</string>
 
     <!-- Home Screen -->
-    <string name="home_conference_before_title">DevFest Vienna 2016</string>
-    <string name="home_conference_before">DevFest Vienna starts on 5 November at the University for Technology - TU Wien.</string>
-    <string name="home_conference_after_title">DevFest Vienna 2016</string>
-    <string name="home_conference_after">DevFest Vienna 2016 was from 5 to 6 November at TU Wien and Stockwerk.</string>
-    <string name="home_conference_last_day_title">DevFest Vienna is over</string>
+    <string name="home_conference_before_title">WTM Vienna 2016</string>
+    <string name="home_conference_before">WTM Vienna starts on 5 November at the University for Technology - TU Wien.</string>
+    <string name="home_conference_after_title">WTM Vienna 2016</string>
+    <string name="home_conference_after">WTM Vienna 2016 was from 5 to 6 November at TU Wien and Stockwerk.</string>
+    <string name="home_conference_last_day_title">WTM Vienna is over</string>
     <string name="home_conference_last_day">Thanks for coming, see you again next year!</string>
     <string name="home_conference_next_day_title">See you tomorrow</string>
     <string name="home_conference_next_day">This was the program for today. We will continue with an awesome hackathon tomorrow morning!</string>

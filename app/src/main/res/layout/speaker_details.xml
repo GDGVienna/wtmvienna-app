@@ -61,42 +61,42 @@
         android:paddingRight="@dimen/activity_margin"
         android:paddingTop="0dp">
 
-        <at.devfest.app.ui.speakers.details.SpeakerDetailsLinkIcon
+        <at.wtmvienna.app.ui.speakers.details.SpeakerDetailsLinkIcon
             android:id="@+id/speaker_details_twitter"
             style="@style/Speaker.Details.Link"
             android:padding="3dp"
             app:srcCompat="@drawable/speaker_details_twitter"
             tools:visibility="visible"/>
 
-        <at.devfest.app.ui.speakers.details.SpeakerDetailsLinkIcon
+        <at.wtmvienna.app.ui.speakers.details.SpeakerDetailsLinkIcon
             android:id="@+id/speaker_details_github"
             style="@style/Speaker.Details.Link"
             android:padding="3dp"
             app:srcCompat="@drawable/speaker_details_github"
             tools:visibility="visible"/>
 
-        <at.devfest.app.ui.speakers.details.SpeakerDetailsLinkIcon
+        <at.wtmvienna.app.ui.speakers.details.SpeakerDetailsLinkIcon
             android:id="@+id/speaker_details_gplus"
             style="@style/Speaker.Details.Link"
             android:padding="1dp"
             app:srcCompat="@drawable/speaker_details_gplus"
             tools:visibility="visible"/>
 
-        <at.devfest.app.ui.speakers.details.SpeakerDetailsLinkIcon
+        <at.wtmvienna.app.ui.speakers.details.SpeakerDetailsLinkIcon
             android:id="@+id/speaker_details_xing"
             style="@style/Speaker.Details.Link"
             android:padding="1dp"
             app:srcCompat="@drawable/speaker_details_xing"
             tools:visibility="visible"/>
 
-        <at.devfest.app.ui.speakers.details.SpeakerDetailsLinkIcon
+        <at.wtmvienna.app.ui.speakers.details.SpeakerDetailsLinkIcon
             android:id="@+id/speaker_details_linkedin"
             style="@style/Speaker.Details.Link"
             android:padding="1dp"
             app:srcCompat="@drawable/speaker_details_linkedin"
             tools:visibility="visible"/>
 
-        <at.devfest.app.ui.speakers.details.SpeakerDetailsLinkIcon
+        <at.wtmvienna.app.ui.speakers.details.SpeakerDetailsLinkIcon
             android:id="@+id/speaker_details_website"
             style="@style/Speaker.Details.Link"
             android:padding="1dp"

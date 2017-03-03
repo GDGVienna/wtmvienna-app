@@ -36,7 +36,7 @@ android {
     buildToolsVersion '25.0.1'
 
     defaultConfig {
-        applicationId 'at.devfest.app'
+        applicationId 'at.wtmvienna.app'
         versionCode 29
         versionName '1.0.1'
 
@@ -45,7 +45,7 @@ android {
         resConfigs 'en'
 
         buildConfigField 'String', 'GIT_SHA', "\"${gitSha}\""
-        buildConfigField 'String', 'API_ENDPOINT', "\"http://www.devfest.at/api/v1/\""
+        buildConfigField 'String', 'API_ENDPOINT', "\"http://www.wtmvienna.at/api/v1/\""
         vectorDrawables.useSupportLibrary = true
     }
 

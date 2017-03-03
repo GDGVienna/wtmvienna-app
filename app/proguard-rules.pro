@@ -20,4 +20,4 @@
 -keepattributes SourceFile,LineNumberTable,InnerClasses,EnclosingMethod
 
 # Keep the BuildConfig
--keep class at.devfest.app.BuildConfig { *; }
+-keep class at.wtmvienna.app.BuildConfig { *; }
