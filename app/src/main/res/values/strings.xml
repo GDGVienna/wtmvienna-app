@@ -81,7 +81,7 @@
 
     <!-- Home Screen -->
     <string name="home_conference_before_title">WTM Vienna 2017</string>
-    <string name="home_conference_before">WTM Vienna 2017 takes place on 11 March at the University for Technology - TU Wien.</string>
+    <string name="home_conference_before">WTM Vienna 2017 takes place on 11 March at the University for Technology - TU Wien. We look forward to seeing you soon at Gußhausstraße 27-29, EI9!</string>
     <string name="home_conference_after_title">WTM Vienna 2017</string>
     <string name="home_conference_after">WTM Vienna 2017 was on 11 March at TU Wien and Stockwerk.</string>
     <string name="home_conference_last_day_title">WTM Vienna is over</string>
