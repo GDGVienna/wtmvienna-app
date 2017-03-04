@@ -36,7 +36,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:visibility="gone"
-            app:cardBackgroundColor="@color/secondary_background"
+            app:cardBackgroundColor="@color/other_background"
             app:cardElevation="0dp"
             app:cardUseCompatPadding="true">
 

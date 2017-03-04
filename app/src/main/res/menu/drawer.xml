@@ -18,12 +18,10 @@
             android:id="@+id/drawer_nav_speakers"
             android:icon="@drawable/drawer_ic_speakers"
             android:title="@string/drawer_nav_speakers"/>
-<!--
         <item
             android:id="@+id/drawer_nav_tweets"
             android:icon="@drawable/drawer_ic_tweets"
             android:title="@string/drawer_nav_tweets"/>
--->
         <item
             android:id="@+id/drawer_nav_venue"
             android:icon="@drawable/drawer_ic_venue"

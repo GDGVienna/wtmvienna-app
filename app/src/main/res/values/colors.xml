@@ -11,4 +11,9 @@
     <color name="divider">#BDBDBD</color>
     <color name="background">#FEFEFE</color>
     <color name="secondary_background">#1ce8b6</color>
+    <!-- session colors -->
+    <color name="presentation_background">#ffffff</color>
+    <color name="workshop_background">#9eddfa</color>
+    <color name="kids_background">#94fff1</color>
+    <color name="other_background">#e0e0e0</color>
 </resources>

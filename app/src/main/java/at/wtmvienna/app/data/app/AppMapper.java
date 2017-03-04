@@ -67,6 +67,9 @@ public class AppMapper {
 
         LocalDateTime currentTime;
         for (Session currentSession : sortedSessions) {
+            if (currentSession.getTitle() == null) {
+                continue;
+            }
             currentTime = currentSession.getFromTime();
             if (previousSessionsList != null) {
                 if (currentTime.equals(previousTime)) {

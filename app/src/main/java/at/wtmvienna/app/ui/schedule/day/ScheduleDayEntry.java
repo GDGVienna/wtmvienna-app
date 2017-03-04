@@ -16,6 +16,7 @@ import org.threeten.bp.format.FormatStyle;
 import java.util.List;
 
 import at.wtmvienna.app.R;
+import at.wtmvienna.app.data.app.model.Room;
 import at.wtmvienna.app.data.app.model.ScheduleSlot;
 import at.wtmvienna.app.data.app.model.Session;
 import at.wtmvienna.app.data.app.model.Speaker;
@@ -80,6 +81,8 @@ public class ScheduleDayEntry extends BaseViewHolder {
 
         bindTime(slot, showTime);
         sessionCard.setVisibility(View.VISIBLE);
+        // Room room = Room.getFromLabel(session.getRoom());
+        // sessionCard.setCardBackgroundColor(room.color);
         sessionTitle.setText(session.getTitle());
         sessionTime.setText(formatSessionTime(session));
         bindRoom(session, sessionRoom);
