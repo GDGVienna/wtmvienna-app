@@ -37,8 +37,8 @@ android {
 
     defaultConfig {
         applicationId 'at.wtmvienna.app'
-        versionCode 4
-        versionName '0.9.3'
+        versionCode 5
+        versionName '0.9.4'
 
         minSdkVersion 15
         targetSdkVersion 25
