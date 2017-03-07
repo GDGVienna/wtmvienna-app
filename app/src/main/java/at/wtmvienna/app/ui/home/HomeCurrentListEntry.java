@@ -61,8 +61,8 @@ public class HomeCurrentListEntry extends BaseViewHolder {
             selectedState.setImageResource(selectedRes);
             selectedState.setVisibility(View.VISIBLE);
         }
-        // int selectedColor = isSelected ? R.color.home_selected_background : R.color.background;
-        // layout.setBackgroundResource(selectedColor);
+        int selectedColor = isSelected ? R.color.home_selected_background : R.color.background;
+        layout.setBackgroundResource(selectedColor);
 
 
         if (showTime) {
