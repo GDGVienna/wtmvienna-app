@@ -2,7 +2,9 @@ package at.wtmvienna.app;
 
 import android.app.Application;
 import android.content.Context;
+import android.os.Looper;
 
+import com.google.firebase.crash.FirebaseCrash;
 import com.jakewharton.threetenabp.AndroidThreeTen;
 import com.twitter.sdk.android.Twitter;
 import com.twitter.sdk.android.core.TwitterAuthConfig;
@@ -27,6 +29,19 @@ public class WTMViennaApp extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
+        // silent "crashes" if not the main thread
+        Thread.setDefaultUncaughtExceptionHandler(new Thread.UncaughtExceptionHandler() {
+            @Override
+            public void uncaughtException(Thread t, Throwable e) {
+                try {
+                    FirebaseCrash.report(e);
+                }
+                catch (Throwable tx) {}
+                if (t == Looper.getMainLooper().getThread()) {
+                    System.exit(2);
+                }
+            }
+        });
         TwitterAuthConfig authConfig = new TwitterAuthConfig(TWITTER_KEY, TWITTER_SECRET);
         Fabric.with(this, new Twitter(authConfig));
         AndroidThreeTen.init(this);

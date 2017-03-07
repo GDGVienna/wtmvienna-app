@@ -12,6 +12,7 @@
     <color name="background">#FEFEFE</color>
     <color name="secondary_background">#1ce8b6</color>
     <!-- session colors -->
+    <color name="home_selected_background">#ccfff8</color>
     <color name="presentation_background">#ffffff</color>
     <color name="workshop_background">#9eddfa</color>
     <color name="kids_background">#94fff1</color>
